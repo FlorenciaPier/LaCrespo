@@ -1,0 +1,322 @@
+body{
+  background: white;
+  color: black;
+  font-size: 16px;
+  font-family: 'MuseoModerno', "Helvetica", "San Serif", cursive;
+}
+h1{
+  font-family: 'MuseoModerno', "Helvetica", "San Serif",cursive;
+  color: white;
+  font-size: 36px;
+}
+h2 {
+  font-family: 'Lobster Two', "Helvetica", "San Serif",cursive;
+  color: black;
+  font-size: 34px;
+}
+h3 {
+  font-family: 'MuseoModerno', "Helvetica", "San Serif",cursive;
+  color: black;
+  font-size: 28px;
+}
+h4 {
+  font-family: 'MuseoModerno', "Helvetica", "San Serif",cursive;
+  color: black;
+  font-size: 26px;
+}
+a {
+  color: brown;
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+.navbar-lewagon {
+    justify-content: space-between;
+    background: white;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 2px 0;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 50px;
+}
+
+.navbar-brand p {
+  color: brown;
+  font-family: 'Lobster Two', "Helvetica", "San Serif", cursive;  
+  font-size: 35px;
+}
+
+.nav-link {
+  font-size: 18px;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  margin-bottom: 120px;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .8;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.btn-primary {
+  color: white;
+  padding: 8px 24px;
+  margin-top: 20px;
+  border-radius: 50px;
+  background: #AAF7FF;
+}
+
+.btn-primary:hover {
+  background: #1BCB7F;
+  color: white;
+}
+
+.card{
+  font-weight: lighter;
+}
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 30px;
+  margin: 20px 0;
+}
+
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.card-category p {
+  font-weight: lighter;
+}
+
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'MuseoModerno', "Helvetica", "San Serif", cursive;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2)
+  margin-bottom: 80px;
+}
+
+.customer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  margin-bottom: 20px;
+}
+
+.customer-background {
+  background-color: #F4F4F4;
+  padding: 20px 0 50px 0;
+  margin-bottom: 120px;
+}
+
+.card-customer {
+  overflow: hidden;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  margin: 20px 15px 15px 15px;
+}
+
+.card-customer img {
+  height: 100%;
+  width: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card-customer h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-customer p {
+  font-size: 15px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.card-customer .card-customer-infos {
+  padding: 0 6px;
+}
+
+.news-background {
+  background-color: black;
+  margin: 5px;
+  padding: 8px;
+  opacity: .8;
+}
+
+.news-background h4 {
+  color: white;
+  opacity: .8;
+  font-size: 18px;
+  padding-left: 35px;
+}
+
+.news-background a {
+  color: white;
+  opacity: .8;  
+  font-size: 14px;
+}
+
+.news-background a:hover {
+  color: #AAF7FF;
+}
+
+.info {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.card-info {
+  background-color: white;
+  padding: 15px;
+  width: 70%;
+  align-self: right;
+}
+
+.card-info h3 {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+.card-info p {
+  color: white;
+  font-size: 16px;
+  line-height: 1.4;
+  opacity: .7;
+}
+
+.card-info img {
+  height: 80%;
+  width: 80%;
+  object-fit: cover;
+}
+
+.card-info .card-info-infos {
+  padding: 16px;
+}
+
+.ubication {
+  display: flex;
+  margin: 20px 0 10px 0;
+}
+
+.card-ubication {
+  background-color: brown;
+  opacity: .9;
+  border-radius: 10px;
+  padding: 15px;
+  width: 100%;
+}
+
+.card-ubication h3 {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+.card-ubication p {
+  color: white;
+  line-height: 1.1;
+}
+
+.footer-background{
+  background: #AAF7FF;
+  padding: 5px 0;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: brown;
+  text-decoration: none;
+  font-size: 30px;
+  padding-right: 20px;
+}
+.footer-links a:hover {
+  color: black;
+}
+
